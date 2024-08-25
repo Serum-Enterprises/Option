@@ -1,0 +1,29 @@
+{
+  "name": "@serum-enterprises/option",
+  "version": "1.0.0",
+  "description": "A rust-like option type",
+  "main": "./build/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serum-Enterprises/Option.git"
+  },
+  "keywords": [
+    "option",
+    "error",
+    "handling"
+  ],
+  "author": "Philipp Steckenbauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Serum-Enterprises/Option/issues"
+  },
+  "homepage": "https://github.com/Serum-Enterprises/Option#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.0"
+  },
+  "dependencies": {
+    "@serum-enterprises/panic": "^1.0.1"
+  }
+}
